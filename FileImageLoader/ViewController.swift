@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         button.setTitle("从文件选择图片", for: .normal)
         button.backgroundColor = .systemBlue
         button.setTitleColor(.white, for: .normal)
-        button.layer.cornerRadius = 8
+        button.layer.cornerRadius = 25
         button.titleLabel?.font = .systemFont(ofSize: 18, weight: .semibold)
         button.addTarget(self, action: #selector(selectImage), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
             
             button.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 40),
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            button.widthAnchor.constraint(equalToConstant: 200),
+            button.widthAnchor.constraint(equalToConstant: 240),
             button.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
