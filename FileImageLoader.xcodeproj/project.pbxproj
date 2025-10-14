@@ -6,36 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		60C7B2BC2E9E3DC80061E5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7B2B12E9E3DC80061E5E7 /* AppDelegate.swift */; };
+		60C7B2BD2E9E3DC80061E5E7 /* FileImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7B2B32E9E3DC80061E5E7 /* FileImageLoader.swift */; };
+		60C7B2BE2E9E3DC80061E5E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7B2B92E9E3DC80061E5E7 /* SceneDelegate.swift */; };
+		60C7B2BF2E9E3DC80061E5E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7B2BA2E9E3DC80061E5E7 /* ViewController.swift */; };
+		60C7B2C02E9E3DC80061E5E7 /* libMyUtils_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7B2AF2E9E3DC80061E5E7 /* libMyUtils_arm64.a */; };
+		60C7B2C12E9E3DC80061E5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C7B2B22E9E3DC80061E5E7 /* Assets.xcassets */; };
+		60C7B2C32E9E3DC80061E5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C7B2B62E9E3DC80061E5E7 /* LaunchScreen.storyboard */; };
+		60C7B2C42E9E3DC80061E5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C7B2B82E9E3DC80061E5E7 /* Main.storyboard */; };
+		60C7B2CD2E9E40820061E5E7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7B2CC2E9E40820061E5E7 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		60955C5D2E9A32090073916F /* FileImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C7B2AC2E9E3DC80061E5E7 /* MathUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathUtils.h; sourceTree = "<group>"; };
+		60C7B2AD2E9E3DC80061E5E7 /* StringUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		60C7B2AF2E9E3DC80061E5E7 /* libMyUtils_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyUtils_arm64.a; sourceTree = "<group>"; };
+		60C7B2B12E9E3DC80061E5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60C7B2B22E9E3DC80061E5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C7B2B32E9E3DC80061E5E7 /* FileImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileImageLoader.swift; sourceTree = "<group>"; };
+		60C7B2B42E9E3DC80061E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C7B2B52E9E3DC80061E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C7B2B72E9E3DC80061E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C7B2B92E9E3DC80061E5E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60C7B2BA2E9E3DC80061E5E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60C7B2C52E9E3E070061E5E7 /* FileImageLoader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileImageLoader-Bridging-Header.h"; sourceTree = "<group>"; };
+		60C7B2CC2E9E40820061E5E7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		60955C6F2E9A320A0073916F /* Exceptions for "FileImageLoader" folder in "FileImageLoader" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 60955C5C2E9A32090073916F /* FileImageLoader */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		60955C5F2E9A32090073916F /* FileImageLoader */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				60955C6F2E9A320A0073916F /* Exceptions for "FileImageLoader" folder in "FileImageLoader" target */,
-			);
-			path = FileImageLoader;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		60955C5A2E9A32090073916F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C7B2CD2E9E40820061E5E7 /* libc++.tbd in Frameworks */,
+				60C7B2C02E9E3DC80061E5E7 /* libMyUtils_arm64.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +51,9 @@
 		60955C542E9A32090073916F = {
 			isa = PBXGroup;
 			children = (
-				60955C5F2E9A32090073916F /* FileImageLoader */,
+				60C7B2B02E9E3DC80061E5E7 /* Libraries */,
+				60C7B2BB2E9E3DC80061E5E7 /* FileImageLoader */,
+				60C7B2CB2E9E40820061E5E7 /* Frameworks */,
 				60955C5E2E9A32090073916F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +64,48 @@
 				60955C5D2E9A32090073916F /* FileImageLoader.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		60C7B2AE2E9E3DC80061E5E7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				60C7B2AC2E9E3DC80061E5E7 /* MathUtils.h */,
+				60C7B2AD2E9E3DC80061E5E7 /* StringUtils.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		60C7B2B02E9E3DC80061E5E7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				60C7B2AF2E9E3DC80061E5E7 /* libMyUtils_arm64.a */,
+				60C7B2AE2E9E3DC80061E5E7 /* include */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		60C7B2BB2E9E3DC80061E5E7 /* FileImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				60C7B2B12E9E3DC80061E5E7 /* AppDelegate.swift */,
+				60C7B2B22E9E3DC80061E5E7 /* Assets.xcassets */,
+				60C7B2B32E9E3DC80061E5E7 /* FileImageLoader.swift */,
+				60C7B2B42E9E3DC80061E5E7 /* Info.plist */,
+				60C7B2B62E9E3DC80061E5E7 /* LaunchScreen.storyboard */,
+				60C7B2B82E9E3DC80061E5E7 /* Main.storyboard */,
+				60C7B2B92E9E3DC80061E5E7 /* SceneDelegate.swift */,
+				60C7B2BA2E9E3DC80061E5E7 /* ViewController.swift */,
+				60C7B2C52E9E3E070061E5E7 /* FileImageLoader-Bridging-Header.h */,
+			);
+			path = FileImageLoader;
+			sourceTree = "<group>";
+		};
+		60C7B2CB2E9E40820061E5E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60C7B2CC2E9E40820061E5E7 /* libc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +122,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				60955C5F2E9A32090073916F /* FileImageLoader */,
 			);
 			name = FileImageLoader;
 			packageProductDependencies = (
@@ -95,6 +142,7 @@
 				TargetAttributes = {
 					60955C5C2E9A32090073916F = {
 						CreatedOnToolsVersion = 26.0;
+						LastSwiftMigration = 2600;
 					};
 				};
 			};
@@ -122,6 +170,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C7B2C12E9E3DC80061E5E7 /* Assets.xcassets in Resources */,
+				60C7B2C32E9E3DC80061E5E7 /* LaunchScreen.storyboard in Resources */,
+				60C7B2C42E9E3DC80061E5E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +183,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C7B2BC2E9E3DC80061E5E7 /* AppDelegate.swift in Sources */,
+				60C7B2BD2E9E3DC80061E5E7 /* FileImageLoader.swift in Sources */,
+				60C7B2BE2E9E3DC80061E5E7 /* SceneDelegate.swift in Sources */,
+				60C7B2BF2E9E3DC80061E5E7 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60C7B2B62E9E3DC80061E5E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C7B2B52E9E3DC80061E5E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60C7B2B82E9E3DC80061E5E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C7B2B72E9E3DC80061E5E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		60955C712E9A320A0073916F /* Debug */ = {
@@ -143,9 +217,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 100;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/include/**";
 				INFOPLIST_FILE = FileImageLoader/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -157,7 +233,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Libraries",
+					"$(inherited)",
+				);
 				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fisher.FileImageLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -168,6 +249,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FileImageLoader/FileImageLoader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -179,9 +262,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 100;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/include/**";
 				INFOPLIST_FILE = FileImageLoader/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -193,7 +278,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Libraries",
+					"$(inherited)",
+				);
 				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fisher.FileImageLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -204,6 +294,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FileImageLoader/FileImageLoader-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -1,0 +1,11 @@
+//
+//  Use this file to import your target's public headers that you would like to expose to Swift.
+//
+
+#ifndef FileImageLoader-Bridging-Header_h
+#define FileImageLoader-Bridging-Header_h
+
+#import "MathUtils.h"
+#import "StringUtils.h"
+
+#endif /* FileImageLoader-Bridging-Header_h */
