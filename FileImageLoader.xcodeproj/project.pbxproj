@@ -16,6 +16,8 @@
 		60C7B2C32E9E3DC80061E5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C7B2B62E9E3DC80061E5E7 /* LaunchScreen.storyboard */; };
 		60C7B2C42E9E3DC80061E5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C7B2B82E9E3DC80061E5E7 /* Main.storyboard */; };
 		60C7B2CD2E9E40820061E5E7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7B2CC2E9E40820061E5E7 /* libc++.tbd */; };
+		60C7B2D22E9E46FC0061E5E7 /* libMyUtils_x86_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7B2D12E9E46FC0061E5E7 /* libMyUtils_x86_64.a */; };
+		60C7B2D32E9E46FC0061E5E7 /* libMyUtils_sim_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7B2D02E9E46FC0061E5E7 /* libMyUtils_sim_arm64.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		60C7B2BA2E9E3DC80061E5E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60C7B2C52E9E3E070061E5E7 /* FileImageLoader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileImageLoader-Bridging-Header.h"; sourceTree = "<group>"; };
 		60C7B2CC2E9E40820061E5E7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		60C7B2D02E9E46FC0061E5E7 /* libMyUtils_sim_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyUtils_sim_arm64.a; sourceTree = "<group>"; };
+		60C7B2D12E9E46FC0061E5E7 /* libMyUtils_x86_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyUtils_x86_64.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C7B2CD2E9E40820061E5E7 /* libc++.tbd in Frameworks */,
+				60C7B2D22E9E46FC0061E5E7 /* libMyUtils_x86_64.a in Frameworks */,
+				60C7B2D32E9E46FC0061E5E7 /* libMyUtils_sim_arm64.a in Frameworks */,
 				60C7B2C02E9E3DC80061E5E7 /* libMyUtils_arm64.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				60C7B2AF2E9E3DC80061E5E7 /* libMyUtils_arm64.a */,
+				60C7B2D02E9E46FC0061E5E7 /* libMyUtils_sim_arm64.a */,
+				60C7B2D12E9E46FC0061E5E7 /* libMyUtils_x86_64.a */,
 				60C7B2AE2E9E3DC80061E5E7 /* include */,
 			);
 			path = Libraries;

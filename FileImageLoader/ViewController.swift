@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        runAllTests()
     }
     
     func setupUI() {
@@ -68,5 +69,62 @@ class ViewController: UIViewController {
         let alert = UIAlertController(title: "提示", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "确定", style: .default))
         present(alert, animated: true)
+    }
+}
+
+// MARK: - 测试C语言函数
+extension ViewController {
+    func runAllTests() {
+        testMathUtils()
+        testStringUtils()
+    }
+    
+    func testMathUtils() {
+        print("------- 测试数学工具 -------")
+        
+        // 加法
+        let sum = add(10, 20)
+        print("10 + 20 = \(sum)")
+        
+        // 乘法
+        let product = multiply(5, 6)
+        print("5 × 6 = \(product)")
+        
+        // 阶乘
+        let fact = factorial(5)
+        print("5! = \(fact)")
+        
+        // 质数判断
+        let num = 17
+        let prime = isPrime(Int32(num))
+        print("\(num) 是质数: \(prime)")
+        
+        // 斐波那契数列
+        let fib = fibonacci(10)
+        print("斐波那契数列第10项: \(fib)")
+    }
+    
+    func testStringUtils() {
+        print("\n------- 测试字符串工具 -------")
+        
+        // 字符串长度
+        let str = "Hello World"
+        let cStr = (str as NSString).utf8String
+        let length = stringLength(cStr)
+        print("字符串 '\(str)' 长度: \(length)")
+        
+        // 字符串反转
+        let reverseStr = "Swift"
+        reverseStr.withCString { ptr in
+            let mutablePtr = UnsafeMutablePointer(mutating: ptr)
+            reverseString(mutablePtr)
+            let reversed = String(cString: mutablePtr)
+            print("反转 'Swift': \(reversed)")
+        }
+        
+        // 统计字符
+        let countStr = "Hello"
+        let count = countChar((countStr as NSString).utf8String, Int8(UInt8(ascii: "l")))
+        print("'Hello' 中 'l' 出现次数: \(count)")
     }
 }
